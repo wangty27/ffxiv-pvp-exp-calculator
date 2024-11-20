@@ -1,0 +1,30 @@
+body {
+  background-color: #ffd1dc;
+  color: #787878;
+  font-family: "Gochi Hand", cursive;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc {
+  background-color: #ffffff;
+  border-radius: 0.875rem;
+  box-shadow: 0.125rem 0rem 0.25rem 0rem #CCCCCC;
+  padding: 30px;
+  max-width: min(90%, 720px);
+
+  /* @media (max-width: 575px) {
+    max-width: 90%;
+  } */
+}
+
+.form {
+  max-width: min(100%, 500px);
+  margin: 0 auto;
+}
