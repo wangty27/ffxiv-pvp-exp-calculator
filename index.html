@@ -18,63 +18,64 @@
 </head>
 <body>
   <div class="main">
-    <div class="calc">
-      <h1 class="text-center">lulu pvp meows</h1>
-      <form class="form mt-4 mb-5" onsubmit="calculate(); return false;">
-        <div class="mb-3">
-          <label for="targetLevel" class="form-label">target level</label>
-          <input id="targetLevel" type="text" class="form-control">
-          <div id="targetLevelHelp" class="form-text">max 40</div>
-        </div>
-        <div class="mb-3">
-          <label for="currentLevel" class="form-label">current level</label>
-          <input id="currentLevel" type="text" class="form-control">
-          <div id="currentLevelHelp" class="form-text">max 39</div>
-        </div>
-        <div class="mb-3">
-          <label for="currentExp" class="form-label">exp towards next level</label>
-          <input id="currentExp" type="text" class="form-control">
-          <div id="currentExpHelp" class="form-text">max 19999</div>
-        </div>
-        <button type="submit" class="btn btn-primary">calculate</button>
-      </form>
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col"></th>
-            <th scope="col">wins</th>
-            <th scope="col">loses (second place)</th>
-            <th scope="col">loses (third place)</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">crystalline conflict</th>
-            <td id="ccTotalWin"></td>
-            <td id="ccTotalLose"></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th scope="row">frontline</th>
-            <td id="flTotalWin"></td>
-            <td id="flTotalLose"></td>
-            <td id="flTotalLose2"></td>
-          </tr>
-          <tr>
-            <th scope="row">frontline daily</th>
-            <td id="flTotalWinDaily"></td>
-            <td id="flTotalLoseDaily"></td>
-            <td id="flTotalLose2Daily"></td>
-          </tr>
-          <tr>
-            <th scope="row">rival wings</th>
-            <td id="rwTotalWin"></td>
-            <td id="rwTotalLose"></td>
-            <td></td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="title-pic-wrapper mb-2">
+      <img class="title-pic img-thumbnail" src="meow.jpg" alt="meow">
     </div>
+    <h1 class="text-center">lulu pvp meows</h1>
+    <form class="form mt-4 mb-5" onsubmit="calculate(); return false;">
+      <div class="mb-3">
+        <label for="targetLevel" class="form-label">target level</label>
+        <input id="targetLevel" type="text" class="form-control">
+        <div id="targetLevelHelp" class="form-text">max 40</div>
+      </div>
+      <div class="mb-3">
+        <label for="currentLevel" class="form-label">current level</label>
+        <input id="currentLevel" type="text" class="form-control">
+        <div id="currentLevelHelp" class="form-text">max 39</div>
+      </div>
+      <div class="mb-3">
+        <label for="currentExp" class="form-label">exp towards next level</label>
+        <input id="currentExp" type="text" class="form-control">
+        <div id="currentExpHelp" class="form-text">max 19999</div>
+      </div>
+      <button type="submit" class="btn btn-primary">calculate</button>
+    </form>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">wins</th>
+          <th scope="col">loses (second place)</th>
+          <th scope="col">loses (third place)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">crystalline conflict</th>
+          <td id="ccTotalWin"></td>
+          <td id="ccTotalLose"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th scope="row">frontline</th>
+          <td id="flTotalWin"></td>
+          <td id="flTotalLose"></td>
+          <td id="flTotalLose2"></td>
+        </tr>
+        <tr>
+          <th scope="row">frontline daily</th>
+          <td id="flTotalWinDaily"></td>
+          <td id="flTotalLoseDaily"></td>
+          <td id="flTotalLose2Daily"></td>
+        </tr>
+        <tr>
+          <th scope="row">rival wings</th>
+          <td id="rwTotalWin"></td>
+          <td id="rwTotalLose"></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
