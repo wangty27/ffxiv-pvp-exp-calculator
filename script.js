@@ -2,11 +2,11 @@
 const pvpLvl = [ 0, 0, 2000, 4000, 6000, 8000, 11000, 14000, 17000, 20000, 23000, 27000, 31000, 35000, 39000, 43000, 48500, 54000, 59500, 65000, 70500, 78000, 85500, 93000, 100500, 108000, 118000, 128000, 138000, 148000, 158000, 178000, 198000, 218000, 238000, 258000, 278000, 298000, 318000, 338000, 358000];
 
 const frontlineWinExp = 1500;
-const frontlineLose2Exp = 1250;
-const frontlineLoseExp = 1000;
+const frontlineLoseExp = 1250;
+const frontlineLose2Exp = 1000;
 const frontlineDailyWinExp = 3000;
-const frontlineDailyLose2Exp = 2750;
-const frontlineDailyLoseExp = 2500;
+const frontlineDailyLoseExp = 2750;
+const frontlineDailyLose2Exp = 2500;
 const crystalineWinExp = 900;
 const crystalineLoseExp = 700;
 const rivalwingsWinExp = 1250;
