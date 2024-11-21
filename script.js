@@ -40,4 +40,5 @@ function calculate() {
   document.querySelector(`#flTotalLose2Daily`).textContent = flTotalLose2Daily > 0 ? flTotalLose2Daily : 'stinky';
   document.querySelector(`#rwTotalWin`).textContent = rwTotalWin > 0 ? rwTotalWin : 'stinky';
   document.querySelector(`#rwTotalLose`).textContent = rwTotalLose > 0 ? rwTotalLose : 'stinky';
+  document.querySelector(`#expNeeded`).textContent = ccTotalWin > 0 ? `exp needed to reach level ${targetLevel}: ${expRequired}` : 'stinky';
 }
