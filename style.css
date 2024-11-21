@@ -23,7 +23,7 @@ body {
   max-width: min(90%, 560px);
 
   @media (min-width: 576px) {
-    margin: 100px auto 20px auto;
+    margin: 20px auto 20px auto;
   }
 }
 
